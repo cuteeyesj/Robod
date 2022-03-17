@@ -1,0 +1,26 @@
+{
+    "name": "khalifa/marketmakingbot",
+    "description": "This is market making bot package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Khalifa\\MarketMakingBot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Khalifa"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Khalifa\\MarketMakingBot\\MkmBotServiceProvider"
+            ],
+            "dont-discover": [
+                "laravel/dusk"
+            ]
+        }
+    }
+}
