@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa0a96c07a073410cf59a1a2dfaeaa94",
+    "content-hash": "6b18192ea9efcaca685d63315a95e505",
     "packages": [
         {
             "name": "brick/math",
@@ -895,11 +895,17 @@
         },
         {
             "name": "khalifa/marketmakingbot",
-            "version": "dev-main",
+            "version": "0.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cuteeyesj/marketmakingbot.git",
+                "reference": "e6f599f1b4923b67405a9a0ed5c7f4a3fa9154f5"
+            },
             "dist": {
-                "type": "path",
-                "url": "packages/khalifa/marketmakingbot",
-                "reference": "173184d4ea6cf3288e1619ca0bab38535ca16a99"
+                "type": "zip",
+                "url": "https://api.github.com/repos/cuteeyesj/marketmakingbot/zipball/e6f599f1b4923b67405a9a0ed5c7f4a3fa9154f5",
+                "reference": "e6f599f1b4923b67405a9a0ed5c7f4a3fa9154f5",
+                "shasum": ""
             },
             "type": "library",
             "extra": {
@@ -926,10 +932,11 @@
                 }
             ],
             "description": "This is market making bot package",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/cuteeyesj/marketmakingbot/tree/testing",
+                "issues": "https://github.com/cuteeyesj/marketmakingbot/issues"
+            },
+            "time": "2022-03-18T05:48:15+00:00"
         },
         {
             "name": "laravel/framework",

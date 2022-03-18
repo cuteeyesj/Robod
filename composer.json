@@ -10,12 +10,12 @@
         "laravel/framework": "^9.2",
         "laravel/sanctum": "^2.14.1",
         "laravel/tinker": "^2.7",
-        "khalifa/marketmakingbot": "*"
+        "khalifa/marketmakingbot": "^0.1"
     },
     "repositories": {
         "marketmakingbot": {
-            "type": "path",
-            "url": "packages/khalifa/marketmakingbot",
+            "type": "vcs",
+            "url": "git@github.com:cuteeyesj/marketmakingbot.git",
             "options": {
                 "symlink": true
             }
